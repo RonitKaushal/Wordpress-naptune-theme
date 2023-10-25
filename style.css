@@ -4,3 +4,41 @@
     Description: This theme is made for only practice pourpose!
     Author:Ronit Kaushal
 */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body
+{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background: #0c0c0c;
+}
+.menu_container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 #000;
+}
+.menu_container li
+{
+    font-family: 'HelveticaNowDisplay';
+    list-style: none;
+}
+.menu_container a
+{
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+}
