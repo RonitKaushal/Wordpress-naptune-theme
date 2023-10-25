@@ -22,8 +22,8 @@ body
 {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     padding: 10px;
     background: #fff;
     border-radius: 15px;
