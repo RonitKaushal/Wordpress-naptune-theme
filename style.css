@@ -29,16 +29,72 @@ body
     border-radius: 15px;
     box-shadow: 0 0 20px 0 #000;
 }
+.close_open_btn
+{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.close_open_btn ion-icon
+{
+    color: #fff;
+    font-size: 50px;
+}
+.close_open_btn .close_open
+{
+  height: auto;
+  margin-right: 15px;
+  display: none;
+}
+.close_open_btn .close_open.active
+{
+    display: block;
+}
+.menu_container .menu_1
+{
+    border-right: 1px solid #0000004d;
+    padding-right: 20px;
+    margin: 10px;
+}
+.menu_container .menu_2
+{
+    margin: 10px;
+    height: 100%;
+}
+.menu_text
+{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 30px;
+}
 .menu_container li
 {
-    font-family: 'HelveticaNowDisplay';
     list-style: none;
 }
-.menu_container a
+.menu_container li a
 {
-    font-size: 14px;
     font-family: 'Roboto';
-    line-height: 22px;
-    color: #000;
+    font-size: 14px;
+    line-height: 30px;
     text-decoration: none;
+}
+.menu_container li .sub-menu li a
+{
+    font-weight: normal;
+}
+.menu-item-has-children a
+{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+.menu-item-has-children ul a
+{
+    font-weight: normal;
+    font-size: 14px !important;
+}
+a
+{
+    color: #000;
 }
