@@ -25,9 +25,18 @@ body
     justify-content: start;
     align-items: start;
     padding: 10px;
+    height: 300px;
+    overflow: hidden;
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 0 20px 0 #000;
+    transition: 0.8s;
+}
+.menu_container.close
+{
+    opacity: 0;
+    padding: 0px;
+    height: 0px;
 }
 .close_open_btn
 {
@@ -36,7 +45,16 @@ body
     justify-content: start;
     align-items: center;
 }
-.close_open_btn ion-icon
+.close_open
+{
+    cursor: pointer;
+}
+.close_open ion-icon
+{
+    color: #fff;
+    font-size: 0px;
+}
+.close_open.active ion-icon
 {
     color: #fff;
     font-size: 50px;
@@ -56,11 +74,21 @@ body
     border-right: 1px solid #0000004d;
     padding-right: 20px;
     margin: 10px;
+    transition: 0.8s;
+}
+.menu_container.close .menu_1
+{
+    margin: 5px;
+}
+.menu_container.close .menu_2
+{
+    margin: 5px;
 }
 .menu_container .menu_2
 {
     margin: 10px;
     height: 100%;
+    transition: 0.8s;
 }
 .menu_text
 {

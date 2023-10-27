@@ -12,7 +12,7 @@
             MENU
         </p>
     </div>
-    <div class="menu_container">
+    <div class="menu_container nav-bar">
         <div class="menu_1">
         <?php
     wp_nav_menu(array(
